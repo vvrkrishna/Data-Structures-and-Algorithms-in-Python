@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[ ]:
 
 
 class Stack():
@@ -35,22 +35,4 @@ def convert_int_to_bin(dec_num):
     while not s.is_empty():
         bin_num += str(s.pop())
     return bin_num
-
-
-# In[4]:
-
-
-int(convert_int_to_bin(56),2)
-
-
-# In[5]:
-
-
-print(int(convert_int_to_bin(56),2)==56)
-
-
-# In[ ]:
-
-
-
 
